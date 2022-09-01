@@ -1,3 +1,8 @@
+An optional accumulative adder: https://wokwi.com/projects/341569483755749970
+
+
+# Template Makefile
+
 ![](../../workflows/wokwi/badge.svg)
 
 Go to https://tinytapeout.com for instructions!
