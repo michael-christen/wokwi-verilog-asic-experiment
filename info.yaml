@@ -5,17 +5,17 @@
 # it does and how to operate it.
 #
 # This will be automatically collected and used to make a datasheet for the chip.
-project: 
-  author:       ""      # Your name
-  title:        ""      # Project title
-  description:  ""      # Short description of what your project does
-  how_it_works: ""      # Longer description of how the project works
-  how_to_test:  ""      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-  external_hw:  ""      # Describe any external hardware needed
-  doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
-  clock_hz:     0       # Clock frequency in Hz (if required)
+project:
+  author:       "Michael Christen"      # Your name
+  title:        "An optionally cumulative adder"      # Project title
+  description:  "Increment with clock and add previous result or current A + B"      # Short description of what your project does
+  how_it_works: "A, B are 3 bits, there's a clock and a selctor to use A or (A + B)'"      # Longer description of how the project works
+  how_to_test:  "Toggle clock to run increment, swap between acumulating or just adding with switch 2; 3-5 are A, 6-8 are B"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
+  external_hw:  "LEDs and switches would be handy"      # Describe any external hardware needed
+  doc_link:     "https://wokwi.com/projects/341569483755749970"      # URL to longer form documentation, eg the README.md in your repository
+  clock_hz:     1       # Clock frequency in Hz (if required), whatever ya want
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  wokwi_id:     0       # the wokwi ID
+  wokwi_id:     341569483755749970       # the wokwi ID
   picture:      ""      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
     - clock
